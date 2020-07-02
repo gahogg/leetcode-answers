@@ -1,15 +1,16 @@
 # Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+#class TreeNode:
+#    def __init__(self, val=0, left=None, right=None):
+#        self.val = val
+#        self.left = left
+#        self.right = right
         
         
 class Solution:
     def rangeSumBST(self, root, L, R):
         return Solution.helper(root, L, R)
     
+    @staticmethod
     def helper(root, L, R):
         if root is None:
             return 0
