@@ -1,5 +1,5 @@
 class Solution:
-    def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
+    def kidsWithCandies(self, candies, extraCandies):
         mx = 0
         
         for num_candies in candies:
