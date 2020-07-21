@@ -1,7 +1,7 @@
 
 class Solution:
     # O(m * n) time, O(1) space
-    def flipAndInvertImage(self, A: List[List[int]]) -> List[List[int]]:
+    def flipAndInvertImage(self, A):
         for row in A:
             i = 0
             j = len(A[0]) - 1
