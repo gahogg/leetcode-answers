@@ -3,7 +3,7 @@ from collections import deque
 
 class Solution:
     #  O(n) runtime, O(n) space
-    def diStringMatch(self, S: str) -> List[int]:
+    def diStringMatch(self, S):
         N = len(S)
         deque_0_to_N = deque(list(range(N + 1)))
         sol_so_far = []
