@@ -3,7 +3,7 @@ from collections import deque
 
 class Solution:
     # O(n) runtime, O(n) space
-    def sortArrayByParity(self, A: List[int]) -> List[int]:
+    def sortArrayByParity(self, A):
         deq_parity_sorted = deque()
         for val in A:
             if val % 2 == 0:
