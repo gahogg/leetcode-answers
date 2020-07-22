@@ -1,6 +1,6 @@
 class Solution:
     # O(m*n) runtime, O(m*n) space
-    def luckyNumbers (self, matrix: List[List[int]]) -> List[int]:
+    def luckyNumbers (self, matrix):
         min_in_row_mat = Solution._get_minimum_in_row_mat(matrix)
         max_in_col_mat = Solution._get_maximum_in_col_mat(matrix)
         return Solution._get_lucky_numbers(min_in_row_mat, max_in_col_mat, matrix)
