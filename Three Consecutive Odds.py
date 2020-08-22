@@ -1,6 +1,6 @@
 class Solution:
 # O(n) time, O(1) space
-    def threeConsecutiveOdds(self, arr: List[int]) -> bool:
+    def threeConsecutiveOdds(self, arr):
         arr_len = len(arr)
         consec_odds = 0
         for i in range(arr_len):
